@@ -1,0 +1,8 @@
+:root{
+    --primary-color: #e1dcc5;
+    --secondar-color: #D22129;
+    --text-color: #333533;
+}
+header{
+    background-color: var(--secondar-color) !important;
+}
