@@ -14,7 +14,10 @@
 ul{
     list-style-type: none;
 }
-
+.main-btn{
+    background-color: var(--secondar-color);
+    color: #ffffff;
+}
 /* HEADER SECTION  */
 
 
@@ -24,10 +27,37 @@ header{
 .navbar i{
     font-size: 25px;
 }
-.navbar input{
-    /* width: 500px !important; */
-}
 
+/* NEW ARRIVAL BOOKS SECTION  */
+
+#new-arrival .card img{
+    background-size: contain !important ;
+    background-position: center;
+}
+#new-arrival .card p{
+    font-size: 15px !important;
+    /* border: 1px solid red; */
+}
+#new-arrival .card p:nth-child(3){
+    font-weight: bold;
+}
+#new-arrival .card p:nth-child(3){
+    flood-color: var(--text-color);
+}
+#new-arrival .card p span{
+    text-decoration: line-through;
+    color: var(--secondar-color);
+}
+#new-arrival .card a:hover{
+    background-color: #ed232df7;
+    color: #ffffff;
+}
+/* Author Of The Month */
+
+#author{
+    background-color: var(--secondar-color);
+    color: #ffff;
+}
 /* SUBSCRIBE SECTION  */
 
 #subscribe .row{
