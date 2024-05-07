@@ -18,8 +18,8 @@ ul{
     background-color: var(--secondar-color);
     color: #ffffff;
 }
-/* HEADER SECTION  */
 
+/* HEADER SECTION  */
 
 header{
     background-color: var(--secondar-color) !important;
@@ -27,16 +27,29 @@ header{
 .navbar i{
     font-size: 25px;
 }
+.navbar form{
+    width: 50%;
+    position: relative;
+}
+.navbar form input{
+    position: relative;
+}
+.navbar form i{
+    position: absolute;
+    right: 5%;
+}
 
 /* NEW ARRIVAL BOOKS SECTION  */
 
+#new-arrival{
+    cursor: pointer;
+}
 #new-arrival .card img{
     background-size: contain !important ;
     background-position: center;
 }
 #new-arrival .card p{
     font-size: 15px !important;
-    /* border: 1px solid red; */
 }
 #new-arrival .card p:nth-child(3){
     font-weight: bold;
@@ -57,6 +70,12 @@ header{
 #author{
     background-color: var(--secondar-color);
     color: #ffff;
+    padding: 5%;
+
+}
+#author img{
+    border: 10px solid #ffffff;
+    border-radius: 100%;
 }
 /* SUBSCRIBE SECTION  */
 
@@ -89,4 +108,26 @@ header{
     background-color: #ffffff;
     padding: 5px;
     border-radius: 50%;
+}
+
+/* MEDIA QUERIES  */
+
+@media screen and (max-width: 768px) {
+    .navbar form{
+        margin: 4%;
+        width: 100%;
+    }
+    #new-arrival .card{
+        margin: 5%;
+    }
+    #trending-category .container .row .col-md-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 4%;
+    }
+    #trending-category .container .row .col-md-2 img{
+        width: 170px;
+    }
 }
