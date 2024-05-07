@@ -14,8 +14,18 @@
 ul{
     list-style-type: none;
 }
+
+/* HEADER SECTION  */
+
+
 header{
     background-color: var(--secondar-color) !important;
+}
+.navbar i{
+    font-size: 25px;
+}
+.navbar input{
+    /* width: 500px !important; */
 }
 
 /* SUBSCRIBE SECTION  */
