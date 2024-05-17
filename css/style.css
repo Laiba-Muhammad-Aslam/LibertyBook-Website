@@ -80,7 +80,7 @@ header{
 /* SUBSCRIBE SECTION  */
 
 #subscribe .row{
-    background-image: url(/images/cover.jpg);
+    background-image: url("../images/cover.jpg");
 }
 #subscribe .email-box button{
     background-color: var(--secondar-color);
